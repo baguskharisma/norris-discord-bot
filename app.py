@@ -219,7 +219,7 @@ def create_output_file(summary, original_filename, file_extension):
         
         return fallback
     
-@bot.command(name="answer", description="Answer questions from the sent document")
+@bot.tree.command(name="answer", description="Answer questions from the sent document")
 async def slash_answer(interaction: discord.Interaction, file: discord.Attachment = None):
     """perintah "/" untuk menjawab pertanyaan dari dokumen apapun"""
     if not file:
