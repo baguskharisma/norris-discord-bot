@@ -4,9 +4,9 @@ discord.py==2.5.2
 Flask==3.1.0
 matplotlib==3.10.1
 mplfinance==0.12.10b0
-numpy==1.23.5
-pandas
-pandas_ta
+numpy==2.2.4
+pandas==2.2.3
+pandas_ta==0.3.14b0
 plotly==6.0.1
 pycoingecko==3.2.0
 PyPDF2==3.0.1
