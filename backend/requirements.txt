@@ -13,3 +13,4 @@ PyPDF2==3.0.1
 python_docx==1.1.2
 Requests==2.32.3
 yfinance==0.2.55
+setuptools>=65.5.0
